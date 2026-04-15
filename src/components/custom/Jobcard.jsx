@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { useRouter } from 'next/navigation'; // Import hook
 
-const Jobcard = ({ services }) => {
+export default function Jobcard({ services }) {
+  const router = useRouter(); // Hook initialize karo
   const [selectedData, setSelectedData] = useState(null);
   return (
     <main className="p-6 md:p-10 relative overflow-hidden">
@@ -57,7 +59,7 @@ const Jobcard = ({ services }) => {
                   <h3 className="text-center text-[12px] md:text-xl font-bold whitespace-nowrap md:mb-6 mb-2">
                     ARE YOU RECRUITING?
                   </h3>
-                  <button className="md:px-6 md:w-auto w-fit p-2 py-2.5 text-[12px] md:text-lg bg-black text-white font-semibold rounded-lg transition-all duration-300 transform active:scale-97 shadow-md cursor-pointer whitespace-nowrap">
+                  <button className="md:px-6 md:w-auto w-fit p-2 py-2.5 text-[12px] md:text-lg bg-black text-white font-semibold rounded-lg transition-all duration-300 transform active:scale-97 shadow-md cursor-pointer whitespace-nowrap"  onClick={() => router.push("/contact-us")}>
                     Contact Us
                   </button>
                 </div>
@@ -89,4 +91,4 @@ const Jobcard = ({ services }) => {
   );
 };
 
-export default Jobcard;
+

@@ -109,7 +109,9 @@ Choose ForgeHire for Airtable support that transcends conventional service model
     },
     {
       id: 8,
-      title: "Low Code Tools (Partnerships/Collaborations)",
+      title: `Low Code Tools 
+      (Partnerships/
+      Collaborations)`,
       description: ``,
       popupData: `Embark on a transformative journey of rapid application development and seamless collaborations with our specialized Product Support service tailored for Low Code Tools, driven by partnerships and collaborations. At Forge Hires Now, we recognize that Low Code Tools are more than just a development approach; they're a catalyst for innovation, empowering organizations to build applications swiftly and foster dynamic collaborations.
 

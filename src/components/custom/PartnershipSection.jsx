@@ -10,10 +10,10 @@ const PartnershipSection = () => {
     <section className="  bg-white ">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-top justify-between md:gap-20 gap-8 px-6 md:px-10 md:py-10 py-4 ">
         <div className="flex-1 md:text-start text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase mb-1 text-black">
+          <h2 className=" text-base sm:text-lg md:text-2xl lg:text-3xl font-bold uppercase mb-1 text-black">
             ForgeHire Strategic Partnerships For Boosting Small Businesses Online
           </h2>
-          <p className={`${TYPOGRAPHY.body} md:mb-10 mb-4 max-w-xl`}>
+          <p className={`${TYPOGRAPHY.body} md:mb-10 mb-4 max-w-4xl`}>
             Empower Your Business with ForgeHire Partnerships! We collaborate to streamline processes, optimize strategies, and enhance the online presence of small businesses. Join us on the journey to success!
           </p>
           <Button

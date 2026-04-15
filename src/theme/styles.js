@@ -7,9 +7,9 @@ export const COLORS = {
 
 export const TYPOGRAPHY = {
   h1: 'text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tighter uppercase',
-  h2: 'text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight tracking-tighter uppercase',
+  h2: 'text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight tracking-tighter uppercase',
   h3: 'text-xl md:text-2xl lg:text-3xl font-bold leading-snug',
-  body: 'text-base md:text-lg leading-relaxed text-gray-900',
+  body: 'text-xs sm:text-base md:text-lg leading-relaxed  text-gray-900',
 };
 
 export const LAYOUT = {
@@ -22,7 +22,7 @@ export const LAYOUT = {
 
 export const CARD = {
   base: 'flex flex-col justify-start items-center gap-6 text-center p-8 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300',
-  feature: 'bg-gray-50/50 border border-gray-100 rounded-3xl p-8 md:p-12 flex flex-col items-center gap-8 text-center transition-all duration-300 hover:bg-gray-50',
+  feature: 'bg-gray-50/50 border border-gray-100 rounded-3xl p-8 md:p-12 flex flex-col items-center gap-2 text-center transition-all duration-300 hover:bg-gray-50',
 };
 
 export const BUTTONS = {

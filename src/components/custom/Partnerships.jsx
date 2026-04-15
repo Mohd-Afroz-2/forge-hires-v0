@@ -24,7 +24,7 @@ const Partnerships = () => {
   return (
     <section className="w-full overflow-hidden bg-black text-white">
       <div className="max-w-7xl mx-auto px-6 md:px-10 md:py-10 py-4">
-        <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold uppercase mb-16">
+        <h2 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl font-bold uppercase mb-16">
           Thriving Partnerships Propel Business Growth.
         </h2>
 
